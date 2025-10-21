@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Espaço Liberdade de Expressão - Início</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+    <header class="site-header">
+        <div class="container">
+            <h1>Espaço Liberdade de Expressão</h1>
+            <p class="slogan">Um refúgio para palavras e ideias florescerem.</p>
+        </div>
+    </header>
+
+    <nav class="main-nav">
+        <div class="container">
+            <ul>
+                <li><a href="index.html" class="active">Início</a></li>
+                <li><a href="sobre.html">Sobre Nós</a></li>
+                <li><a href="autores.html">Autores</a></li>
+                <li><a href="publique.html">Publique Conosco</a></li>
+                <li><a href="contato.html">Contato</a></li>
+                <li><a href="artigo-modelo.html">Artigos</a></li>
+            </ul>
+        </div>
+    </nav>
+    
+    <div class="container">
+        <div class="search-container">
+            <input type="search" placeholder="Pesquise por um tópico, conceito ou pergunta...">
+            <button type="submit">Buscar</button>
+        </div>
+    </div>
+    
+    <section class="timeline-section-linear">
+        <div class="container">
+            <h2>Linha do Tempo do Conhecimento</h2>
+            <div class="timeline-menu">
+                <label for="knowledge-select-linear">Campo:</label>
+                <select id="knowledge-select-linear">
+                    <option value="astronomia">Astronomia</option>
+                    <option value="computacao">Computação</option>
+                    <option value="fisica">Física</option>
+                </select>
+            </div>
+            <div class="timeline-wrapper">
+                <div class="timeline-line"></div>
+                <div id="timeline-events" class="timeline-events">
+                    </div>
+            </div>
+        </div>
+    </section>
+
+    <main class="main-content">
+        <div class="container">
+            <section class="latest-articles">
+                <h2>Últimas Publicações</h2>
+                <div class="articles-grid">
+                    <article class="article-card">
+                        <img src="https://via.placeholder.com/400x250/cccccc/888888?text=Imagem" alt="Imagem descritiva do artigo">
+                        <div class="card-content">
+                            <span class="category">Crônica</span>
+                            <h3>As Manhãs de Outono na Cidade</h3>
+                            <p class="author">Por: Joana Silva</p>
+                            <p class="excerpt">Uma reflexão sobre a passagem do tempo...</p>
+                            <a href="#" class="read-more">Leia Mais</a>
+                        </div>
+                    </article>
+                    <article class="article-card">
+                        <img src="https://via.placeholder.com/400x250/cccccc/888888?text=Imagem" alt="Imagem descritiva do artigo">
+                        <div class="card-content">
+                            <span class="category">Conto</span>
+                            <h3>O Último Voo do Pássaro de Papel</h3>
+                            <p class="author">Por: Carlos Andrade</p>
+                            <p class="excerpt">Em um mundo onde sonhos são feitos de papel...</p>
+                            <a href="#" class="read-more">Leia Mais</a>
+                        </div>
+                    </article>
+                    <article class="article-card">
+                        <img src="https://via.placeholder.com/400x250/cccccc/888888?text=Imagem" alt="Imagem descritiva do artigo">
+                        <div class="card-content">
+                            <span class="category">Poesia</span>
+                            <h3>Mar de Concreto</h3>
+                            <p class="author">Por: Sofia Martins</p>
+                            <p class="excerpt">Versos que navegam pelas ondas cinzentas...</p>
+                            <a href="#" class="read-more">Leia Mais</a>
+                        </div>
+                    </article>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>&copy; 2025 Espaço Liberdade de Expressão. Todos os direitos reservados.</p>
+            <p><a href="#">Política de Privacidade</a> | <a href="#">Termos de Uso</a></p>
+        </div>
+    </footer>
+
+    <script src="data.js"></script> <script src="timeline-linear.js"></script> 
+</body>
+</html>
